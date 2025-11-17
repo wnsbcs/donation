@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* for button of donation listing and campaign alert */
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.top-buttons button {
+  background-color: #ffcc00;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.top-buttons button:hover {
+  background-color: #ffd633;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e1e1e;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.donate-btn {
+  background-color: #ffcc00;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.donate-btn:hover {
+  background-color: #ffd633;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+}
+
+th {
+  cursor: pointer;
+  color: #ffcc00;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.action-cell {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+.edit-btn, .delete-btn {
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ffd633;
+}
+
+.delete-btn:hover {
+  background-color: #ff6666;
+}
